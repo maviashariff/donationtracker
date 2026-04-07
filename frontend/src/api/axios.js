@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: "https://your-app.onrender.com/api",
 })
 
 // Attach JWT token to every request

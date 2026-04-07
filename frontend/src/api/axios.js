@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: "https://your-app.onrender.com/api",
+  baseURL: "https://donationtracker-p002.onrender.com/",
 })
 
 // Attach JWT token to every request
